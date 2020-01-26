@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.65896a82.chunk.js",
-    "main.js.map": "/static/js/main.65896a82.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c886b603.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c886b603.js.map",
-    "static/js/2.07c8d100.chunk.js": "/static/js/2.07c8d100.chunk.js",
-    "static/js/2.07c8d100.chunk.js.map": "/static/js/2.07c8d100.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4e26459f5130ebf7e751568889adfc36.js": "/precache-manifest.4e26459f5130ebf7e751568889adfc36.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.07c8d100.chunk.js.LICENSE": "/static/js/2.07c8d100.chunk.js.LICENSE"
+    "main.css": "/seaweber/CIT499-Homework-Refresher/static/css/main.d1b05096.chunk.css",
+    "main.js": "/seaweber/CIT499-Homework-Refresher/static/js/main.3b69a97e.chunk.js",
+    "main.js.map": "/seaweber/CIT499-Homework-Refresher/static/js/main.3b69a97e.chunk.js.map",
+    "runtime-main.js": "/seaweber/CIT499-Homework-Refresher/static/js/runtime-main.9edb2210.js",
+    "runtime-main.js.map": "/seaweber/CIT499-Homework-Refresher/static/js/runtime-main.9edb2210.js.map",
+    "static/js/2.07c8d100.chunk.js": "/seaweber/CIT499-Homework-Refresher/static/js/2.07c8d100.chunk.js",
+    "static/js/2.07c8d100.chunk.js.map": "/seaweber/CIT499-Homework-Refresher/static/js/2.07c8d100.chunk.js.map",
+    "index.html": "/seaweber/CIT499-Homework-Refresher/index.html",
+    "precache-manifest.fd466a977b4d7ce8f5d175a5c973fde4.js": "/seaweber/CIT499-Homework-Refresher/precache-manifest.fd466a977b4d7ce8f5d175a5c973fde4.js",
+    "service-worker.js": "/seaweber/CIT499-Homework-Refresher/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/seaweber/CIT499-Homework-Refresher/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.07c8d100.chunk.js.LICENSE": "/seaweber/CIT499-Homework-Refresher/static/js/2.07c8d100.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c886b603.js",
+    "static/js/runtime-main.9edb2210.js",
     "static/js/2.07c8d100.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.65896a82.chunk.js"
+    "static/js/main.3b69a97e.chunk.js"
   ]
 }
