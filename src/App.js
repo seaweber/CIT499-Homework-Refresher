@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import List from './components/List';
+import ItemPage from './components/ItemPage'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const items = [
+        { name: 'Trogdor', color: 'green', text: 'Was a man, or maybe a dragon man, or just a dragon?' },
+        { name: 'S is for sucks', color: 'orange', text: 'Sorry Mr. Trogdor, you\'ve run out of luck' },
+        { name: 'Strongbad', color: 'red', text: 'THE CHEAT IS NOT DEAD'}
+    ];
+
+    return (
+        <div className="App">
+
+            <Router>
+                <Switch>
+
+                    <Route path={ "/" } exact component={(props) => <List {...props} items={items}/> }/>
+                    <Route path={ "/item/:id" } component={(props) => <ItemPage {...props} items={items}/> }/>
+
+                </Switch>
+            </Router>
+
+        </div>
+    );
 }
 
 export default App;
