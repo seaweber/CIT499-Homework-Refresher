@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CIT499-Homework-Refresher/precache-manifest.8b5c6b2d41cb6d7d48397f8747f9e933.js"
+  "/CIT499-Homework-Refresher/precache-manifest.7cb28f26731b767ef724b0860cd853b6.js"
 );
 
 self.addEventListener('message', (event) => {
