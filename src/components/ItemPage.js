@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function ItemPage ( props ) {
 
@@ -9,15 +10,15 @@ function ItemPage ( props ) {
             <h1> { data.name } </h1>
             <p> { data.text } </p>
             <h3 style={{ backgroundColor: data.color }}> { data.color } </h3>
-            <a
-                href={ '/' }
+            <Link
+                to={ '/' }>
                 style={{ color: 'inherit',
                          backgroundColor: 'gray',
                          textDecoration: 'none',
                          padding: '8px'
                        }} >
                 Return
-            </a>
+            </Link>
         </div>
     );
 }
