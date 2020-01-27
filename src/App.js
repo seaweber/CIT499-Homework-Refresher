@@ -19,7 +19,7 @@ function App() {
     return (
         <div className="App">
 
-            <Router basename="/seaweber/firebase_store">
+            <Router>
                 <Switch>
 
                     <Route path={ "/" } exact component={(props) => <List {...props} items={items}/> }/>
