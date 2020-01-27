@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Item ( props ) {
 
@@ -17,17 +18,7 @@ function Item ( props ) {
         >
             <h1> { props.name } </h1>
 
-            <div>
-                <a
-                    href={ urlString }
-                    style={{ color: 'inherit',
-                        backgroundColor: 'gray',
-                        textDecoration: 'none',
-                        padding: '8px'
-                    }} >
-                    Details
-                </a>
-            </div>
+            <Link to={ urlString }>Item Link</Link>
 
         </div>
     );

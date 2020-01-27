@@ -23,7 +23,7 @@ function App() {
                 <Switch>
 
                     <Route path={ "/" } exact component={(props) => <List {...props} items={items}/> }/>
-                    <Route path={ process.env.PUBLIC_URL + "/item/:id" } component={(props) => <ItemPage {...props} items={items}/> }/>
+                    <Route path={ "/item/:id" } component={(props) => <ItemPage {...props} items={items}/> }/>
 
                 </Switch>
             </Router>
