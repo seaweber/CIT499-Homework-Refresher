@@ -5,8 +5,6 @@ function Item ( props ) {
 
     const [ background, toggleBackground ] = useState(false);
 
-    const urlString = '/item/' + props.id;
-
     return (
         <div
             style={{
@@ -18,7 +16,7 @@ function Item ( props ) {
         >
             <h1> { props.name } </h1>
 
-            <Link to={ urlString }>Item Link</Link>
+            <Link to={ '/item/' + props.id }>Item Link</Link>
 
         </div>
     );
