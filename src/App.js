@@ -20,7 +20,7 @@ function App() {
         <div className="App">
             <h1>BIG TEST</h1>
 
-            <Router basename="/CIT499-Homework-Refresher/">
+            <Router basename={ process.env.PUBLIC_URL }>
                 <Switch>
 
                     <Route path={ "/" } exact component={(props) => <List {...props} items={items}/> }/>
