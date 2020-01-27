@@ -20,7 +20,7 @@ function App() {
         <div className="App">
             <h1>BIG TEST</h1>
 
-            <Router>
+            <Router basename="/CIT499-Homework-Refresher/">
                 <Switch>
 
                     <Route path={ "/" } exact component={(props) => <List {...props} items={items}/> }/>
