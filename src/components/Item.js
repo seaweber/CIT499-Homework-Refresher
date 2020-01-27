@@ -4,7 +4,7 @@ function Item ( props ) {
 
     const [ background, toggleBackground ] = useState(false);
 
-    const urlString = '/item/' + props.id;
+    const urlString = process.env.PUBLIC_URL + '/item/' + props.id;
 
     return (
         <div
