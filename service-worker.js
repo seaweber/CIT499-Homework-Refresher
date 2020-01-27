@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/seaweber/CIT499-Homework-Refresher/precache-manifest.24d499a7da3091f3427135dafe718d70.js"
+  "/seaweber/CIT499-Homework-Refresher/precache-manifest.ad3e0f3feb5de7365ebdbabba6602779.js"
 );
 
 self.addEventListener('message', (event) => {
