@@ -1,9 +1,0 @@
-[build]
-  command = "npm run build"
-  publish="seaweber/CIT499-Homework-Refresher/tree/gh-pages"
-  base = "seaweber/CIT499-Homework-Refresher"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
