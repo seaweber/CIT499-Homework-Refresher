@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ItemPage ( props ) {
 
@@ -11,7 +11,7 @@ function ItemPage ( props ) {
             <p> { data.text } </p>
             <h3 style={{ backgroundColor: data.color }}> { data.color } </h3>
             <Link
-                to={ process.env.PUBLIC_URL }
+                to={ '/' }
                 style={{ color: 'inherit',
                          backgroundColor: 'gray',
                          textDecoration: 'none',
