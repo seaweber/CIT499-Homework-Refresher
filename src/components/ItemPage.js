@@ -10,7 +10,7 @@ function ItemPage ( props ) {
             <p> { data.text } </p>
             <h3 style={{ backgroundColor: data.color }}> { data.color } </h3>
             <a
-                href={ process.env.PUBLIC_URL }
+                href={ '/' }
                 style={{ color: 'inherit',
                          backgroundColor: 'gray',
                          textDecoration: 'none',
